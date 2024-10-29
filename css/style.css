@@ -315,6 +315,11 @@ a{
   width: 80px;
 }
 
+.card1 a{
+  text-decoration: none;
+  color: white;
+}
+
 .cards button{
   width: 260px;
   background-color: #3d93fd;;
