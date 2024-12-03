@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:wght@200;400;500;600&display=swap');
+body {
+  color: #444;
+  font-family: Tahoma;
+  display: flex;
+  height: 96vh;
+}
+
+body{
+    background:   linear-gradient(to right, #004d91, #003455, #001c38);
+}
+
+.form-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(253, 253, 253, 0.582);
+  border: 2px solid rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+}
+
+#app {
+  width: 512px;
+  margin: auto;
+  box-shadow: 4px 4px 20px #888;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.startHidden {
+  display: none;
+}
+
+h1{
+  font-family:  'Inter', sans-serif;
+}
+
+h3 {
+  margin: 4px;
+  font-weight: normal;
+}
+
+input {
+  width: 80%;
+  margin: 4px;
+  padding: 4px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button {
+  background-color: #4c4;
+  font-size: 15px;
+  color: white;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+#google{
+  width: 5%;
+}
+
+p {
+  margin: 0;
+}
+
+#buttons{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+#buttons button{
+  margin: 8 px;
+}
+#buttons a{
+  color: white  ;
+  text-decoration: none;
+}
+
+#buttons .alternative {
+  background-color: #44c;
+  width: 150px;
+}
+
+#buttons .danger {
+  background-color: #c44;
+  width: 150px
+}
+
+#buttons .next {
+  background-color: #4c4;
+  width: 150px
+}
+
+.alternative {
+  background-color: #44c;
+}
+
+#loading {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  z-index: 1;
+}
+
+#auth img {
+  cursor: pointer;
+  margin: 4px;
+}
+
+#auth img:hover {
+  opacity: 0.75;
+}
+
+#userImg {
+  height: 40px;
+  border-radius: 100%;
+}
+
+#verificado{
+  width: 5%;
+}
